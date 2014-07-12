@@ -21,6 +21,9 @@ gruntFunction = (grunt) ->
           ext: '.js'
         ]
     coffeelint:
+      options:
+        'max_line_length':
+          level: 'ignore'
       'build': ['src/**/*.coffee']
 
   grunt.loadNpmTasks 'grunt-coffeelint'
