@@ -21,9 +21,9 @@ class Scraper
     @_getLoginUuid (uuid) =>
       @_loginMyNeu settings.username, settings.password, uuid, (err, res, body) =>
         if err then throw err
-        @_fixTraceCookies()
-        @_openTrace (err, res, body) =>
-          console.log body
+        @_fixTraceCookies () =>
+          @_openTrace (err, res, body) =>
+            console.log body
 
 
   _getLoginUuid: (cb) ->
@@ -40,7 +40,7 @@ class Scraper
         pass: password
         uuid: uuid
     , cb
-  _fixTraceCookies: =>
+  _fixTraceCookies: (cb) =>
     @request.get @TRACE_LOAD_URL, (err, res, html) =>
       if err then throw err
 
@@ -55,6 +55,7 @@ class Scraper
           @cookieJar.setCookie(new_cookie, 'https://prod-web.neu.edu/CPIP/pickup_new.html')
         if name is "dest"
           data['destination_url'] = unescape(val)
+        cb()
   _openTrace: (cb) ->
     @request.get @TRACE_URL, cb
 
