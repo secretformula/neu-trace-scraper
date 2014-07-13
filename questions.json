@@ -1,0 +1,320 @@
+[
+  {
+    "text": "All responses are completely anonymous, and participation in the evaluation process is expected. However, you are permitted to opt out of completing this questionnaire by selecting \"Opt Out.\"",
+    "options": [
+      "No Response",
+      "I will participate",
+      "I choose not to participate"
+    ]
+  },
+  {
+    "text": "The syllabus helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The textbook(s) helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The materials posted online, including Blackboard, helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The out-of-class assignments and fieldwork helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The lectures helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The in-class discussions and activities helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The classroom technology helped me to learn.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The number of hours per week I devoted to this course including lectures, discussions, homework, reading, projects, assignments and tests",
+    "options": [
+      "1-4",
+      "5-8",
+      "9-12",
+      "13-16",
+      "17-20",
+      "No Response"
+    ]
+  },
+  {
+    "text": "I found this course intellectually challenging.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "I learned to apply course concepts and principles.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "I developed additional skills in expressing myself orally and in writing.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "I learned to analyze and evaluate ideas, arguments, and points of view",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor possessed the basic communications skills necessary to teach the course.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor clearly communicated ideas and information.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor clearly stated the objectives of the course.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor covered what was stated in the course objectives and syllabus.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor came to class prepared to teach.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor used class time effectively.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor provided sufficient feedback.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor fairly evaluated my performance.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor is someone I would recommend to other students.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor treated students with respect.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor acknowledged and took effective action when students did not understand the material.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor was available to assist students outside of class.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "The instructor displayed enthusiasm for the course.",
+    "options": [
+      "Strongly Agree",
+      "Agree",
+      "Neutral",
+      "Disagree",
+      "Strongly Disagree",
+      "No Response",
+      "N/A"
+    ]
+  },
+  {
+    "text": "What is your overall rating of this instructor's teaching effectiveness?",
+    "options": [
+      "Almost Always Effective",
+      "Usually Effective",
+      "Sometimes Effective",
+      "Rarely Effective",
+      "Never Effective",
+      "No Response"
+    ]
+  }
+]
