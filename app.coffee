@@ -114,19 +114,14 @@ fs.readFile 'reviews.json', 'utf8', (error, data) ->
   finally
     start()
 
-
 repeat = (ms, func) ->
   setInterval func, ms
 
-# backup to disk every minute
 repeat 60000, ->
   console.log 'writing reviews to disc'
   fs.writeFile 'reviews.json', JSON.stringify(reviews), (error) ->
     throw error if error
     console.log 'wrote reviews to disks'
-
-
-console.log reviews
 
 request = request.defaults
   jar: cookies,
@@ -219,6 +214,10 @@ scrapeReview = (review_url, key, courseId, sectionId, reviewURLs) ->
     profCommentsDone = false
 
     saveReview = =>
+
+      for key in ['professor', 'term', 'numStudents', 'numResponses', 'subject', 'course']
+        throw "Not a good review!" if review[key] in ['', undefined, null]
+
       reviews[key] = review
       loadReviews reviewURLs
       console.log reviews[key]

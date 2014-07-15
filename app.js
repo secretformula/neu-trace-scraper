@@ -149,8 +149,6 @@
     });
   });
 
-  console.log(reviews);
-
   request = request.defaults({
     jar: cookies,
     followAllRedirects: true,
@@ -239,6 +237,14 @@
       profCommentsDone = false;
       saveReview = (function(_this) {
         return function() {
+          var _j, _len1, _ref, _ref1;
+          _ref = ['professor', 'term', 'numStudents', 'numResponses', 'subject', 'course'];
+          for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+            key = _ref[_j];
+            if ((_ref1 = review[key]) === '' || _ref1 === (void 0) || _ref1 === null) {
+              throw "Not a good review!";
+            }
+          }
           reviews[key] = review;
           loadReviews(reviewURLs);
           console.log(reviews[key]);
